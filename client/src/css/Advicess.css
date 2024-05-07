@@ -1,0 +1,30 @@
+#scroll-container {
+  /* Adjust as needed */
+  height: 68vh;
+  overflow: hidden;
+}
+
+#scroll-text {
+  height: 200%; /* Adjust based on the number of repetitions needed */
+  text-align: center;
+  animation: my-animation 120s linear infinite;
+}
+
+@keyframes my-animation {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(calc(-100% * 6)); /* Adjust the number of repetitions */
+  }
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  color: green;
+}

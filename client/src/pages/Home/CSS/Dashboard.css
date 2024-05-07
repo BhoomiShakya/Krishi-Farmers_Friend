@@ -1,0 +1,23 @@
+/* Dashboard.css */
+.announcement-container {
+    overflow: hidden;
+    height: 300px; /* Set the height to your desired value */
+    position: relative;
+  }
+  
+  .announcement-item {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    animation: scroll-announcement 10s linear infinite;
+  }
+  
+  @keyframes scroll-announcement {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  

@@ -1,0 +1,17 @@
+.paddingall{
+    padding: 10px 10px 10px 10px;
+}
+
+.tt{
+    font-weight:600 ;
+}
+.iconside{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.cardds{
+    /* background-color: green; */
+    background: linear-gradient(180deg, white,  #009900);
+    border-bottom:solid 2 px black;
+}
